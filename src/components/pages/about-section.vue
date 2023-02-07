@@ -5,7 +5,7 @@
             <p>I'M KEVIN</p>
             <p>I am I.T. Staff (PHP developer)</p>
             <button class="hire-btn">Hire Me</button>
-            <button class="down-cv-btn">Download CV</button>
+            <button class="down-cv-btn" @click.prevent="downloadCV">Download CV</button>
         </div>
         <img src="../../assets/PHP_developer.png" alt="model" class="model">
     </section>
@@ -16,9 +16,14 @@
 
 export default {
   name: 'about-section',
-components:{
-    
-}
+    methods:{
+        downloadCV(){
+            const url = '/files/kevin-morales-CV.pdf';
+            window.open(url,"_blank")
+            
+           
+        }
+    }
 }
 </script>
 

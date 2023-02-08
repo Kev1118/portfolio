@@ -1,7 +1,7 @@
 <template>
     <div class="d-flex justify-content-center">
         <div class="info-container">
-            <img src="../../assets/about-img.png" alt="myImage">
+            <img src="../../assets/about-img.png" alt="myImage" class="img-fluid">
             <div class="about-text">
                 <p>About Me</p>
                 <p>PHP Developer</p>
@@ -29,7 +29,6 @@ export default {
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     display: flex;
-    
     position: relative;
     justify-content: space-evenly;
     align-items: center;
@@ -60,23 +59,13 @@ export default {
     font-family: calibri;
     font-size: 16px;
 }
-@media only screen and  (max-width: 600px){
-    
-    .about-text p:nth-child(1){
-        font-size:  23px;
-    }
-    .about-text p:nth-child(2){
-        font-size:  23px;
-    }
-    .about-text p:nth-child(3){
-        font-size:  12px;
-    }
-    .info-container{
-        padding: 10px;
-    }
-}
+
+
 @media only screen and  (max-width: 900px){
     
+    .info-container img{
+        height: 200px;
+    }
     .about-text p:nth-child(1){
         font-size:  23px;
     }
@@ -85,6 +74,49 @@ export default {
     }
     .about-text p:nth-child(3){
         font-size:  15px;
+    }
+    .info-container{
+        padding: 10px;
+    }
+}
+@media only screen and  (max-width: 600px){
+    
+    
+    .info-container img{
+        height: 160px;
+    }
+    .about-text p:nth-child(1){
+        font-size:  23px;
+    }
+    .about-text p:nth-child(2){
+        font-size:  23px;
+    }
+    .about-text p:nth-child(3){
+        font-size:  11px;
+    }
+    .info-container{
+        padding: 10px;
+    }
+}
+@media only screen and  (max-width: 400px){
+    
+    /* .info-container {
+        display: flex;
+        flex-direction: column;
+    }
+    . */
+    
+    .info-container img{
+        height: 180px;
+    }
+    .about-text p:nth-child(1){
+        font-size:  23px;
+    }
+    .about-text p:nth-child(2){
+        font-size:  10px;
+    }
+    .about-text p:nth-child(3){
+        font-size:  10px;
     }
     .info-container{
         padding: 10px;

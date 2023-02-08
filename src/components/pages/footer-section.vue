@@ -27,5 +27,15 @@ export default {
     padding: 1rem 1.5rem;
     color: #60be86;
 }
-
+@media only screen and (max-width: 400px){
+    .footer p:nth-child(1){
+        font-size: 10px;
+    }
+    .footer p:nth-child(2){
+        font-size: 10px;
+    }
+    .footer p:nth-child(3){
+        font-size: 10px;
+    }
+}
 </style>

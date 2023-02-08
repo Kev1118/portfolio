@@ -1,14 +1,15 @@
 <template>
-    <div class="info-container">
-        <img src="../../assets/about-img.png" alt="myImage">
-        <div class="about-text">
-            <p>About Me</p>
-            <p>PHP Developer</p>
-            <p>
-                 Hi, I'm Kevin Morales graduate with BS Computer Engineer. I'm currently working in FDTP as an IT Staff (Web Developer) with major responsiblity in HR management system with payroll, i've also responsiblity in our MS Server particulary in System Server.
-                 Currently I'm looking to utilize broad knowledge of programming, software engineering lifecycle, and data management to perform programming and software development using various programming languages and related tools and frameworks to solve clients’ business problems as a Programmer.
-            </p>
-            
+    <div class="d-flex justify-content-center">
+        <div class="info-container">
+            <img src="../../assets/about-img.png" alt="myImage">
+            <div class="about-text">
+                <p>About Me</p>
+                <p>PHP Developer</p>
+                <p>
+                    Hi, I'm Kevin Morales graduate with BS Computer Engineer. I'm currently working in FDTP as an IT Staff (Web Developer) with major responsiblity in HR management system with payroll, i've also responsiblity in our MS Server particulary in System Server.
+                    Currently I'm looking to utilize broad knowledge of programming, software engineering lifecycle, and data management to perform programming and software development using various programming languages and related tools and frameworks to solve clients’ business problems as a Programmer.
+                </p>
+            </div>
         </div>
     </div>
 </template>
@@ -28,7 +29,7 @@ export default {
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     display: flex;
-    margin: -7% auto 20px auto;
+    
     position: relative;
     justify-content: space-evenly;
     align-items: center;
@@ -59,5 +60,34 @@ export default {
     font-family: calibri;
     font-size: 16px;
 }
-
+@media only screen and  (max-width: 600px){
+    
+    .about-text p:nth-child(1){
+        font-size:  23px;
+    }
+    .about-text p:nth-child(2){
+        font-size:  23px;
+    }
+    .about-text p:nth-child(3){
+        font-size:  12px;
+    }
+    .info-container{
+        padding: 10px;
+    }
+}
+@media only screen and  (max-width: 900px){
+    
+    .about-text p:nth-child(1){
+        font-size:  23px;
+    }
+    .about-text p:nth-child(2){
+        font-size:  23px;
+    }
+    .about-text p:nth-child(3){
+        font-size:  15px;
+    }
+    .info-container{
+        padding: 10px;
+    }
+}
 </style>

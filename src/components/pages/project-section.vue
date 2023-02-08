@@ -3,7 +3,7 @@
         <div class="container">
           <h4>Projects</h4>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img src="../../assets/projects/Weather.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -13,7 +13,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img src="../../assets/projects/old_porfolio.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -24,7 +24,7 @@
                     </div>
                 
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img src="../../assets/projects/web_template.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                     <div class="card" style="width: 18rem;">
                         <video controls>
                             <source src="../../assets/projects/online-shop.mp4" type="video/mp4">
@@ -47,11 +47,9 @@
                         </div>
                     </div>
                 </div>
-
-                
             </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                     <b-card
                         title="Admin-template Clone"
                         img-src="https://picsum.photos/600/300/?image=25"

@@ -1,14 +1,23 @@
 <template>
-    <section>
-        <div class="text-container">
-            <p>Hello,</p>
-            <p>I'M KEVIN</p>
-            <p>I am I.T. Staff (PHP developer)</p>
-            <button class="hire-btn">Hire Me</button>
-            <button class="down-cv-btn" @click.prevent="downloadCV">Download CV</button>
+    <div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
+                <div class="text-container">
+                    <p>Hello,</p>
+                    <p>I'M KEVIN</p>
+                    <p>I am I.T. Staff (PHP developer)</p>
+                    <button class="hire-btn">Hire Me</button>
+                    <button class="down-cv-btn" @click.prevent="downloadCV">Download CV</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="../../assets/PHP_developer.png" alt="model" class="img-fluid">
+            </div>
         </div>
-        <img src="../../assets/PHP_developer.png" alt="model" class="model">
-    </section>
+    </div>
+        
+    </div>
     
 </template>
 
@@ -28,6 +37,9 @@ export default {
 </script>
 
 <style scoped>
+.text-container{
+   /* margin-top: 2rem; */
+}
 .text-container p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
@@ -51,13 +63,14 @@ export default {
     line-height: 0px;
     margin: 45px 0px 25px;
 }
-.text-container{
+/* .text-container{
     position: absolute;
     left: 13%;
     top: 42%;
     transform: translate(-13%, -42%);
 
-}
+} */
+
 .text-container button{
     width: 130px;
     height: 42px;
@@ -80,11 +93,11 @@ export default {
 button:hover{
     transform: scale(1.1);
 }
-.model{
+/* .model{
     height: 560px;
     position: absolute;
-    /* bottom: 0%; */
+    bottom: 0%;
     left: 70%;
     transform: translateX(-70%);
-}
+} */
 </style>

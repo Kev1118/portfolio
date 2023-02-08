@@ -4,40 +4,48 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <span class="text-white">Current Tech stack:</span>
-                    <div class="d-flex flex-row">
-                        <span class="skill-icon">
-                            <i class="devicon-html5-plain"></i>
-                            <small>HTML 5</small>
-                        </span>
-                        <span class="skill-icon">
-                            <i class="devicon-css3-plain"></i>
-                            <small>CSS</small>
-                        </span>
-                        <span class="skill-icon">
-                            <i class="devicon-bootstrap-plain"></i>
-                            <small>Bootstrap</small>
-                        </span>
-                        <span class="skill-icon">
-                            <i class="devicon-javascript-plain"></i>
-                            <small>Javascript</small>
-                        </span>
-                        <span class="skill-icon">
-                            <i class="devicon-jquery-plain"></i>
-                            <small>Jquery</small>
-                        </span>
-                        <span class="skill-icon">
-                        <i class="devicon-php-plain"></i>
-                        <small>PHP</small>
-                    </span>
-                    <span class="skill-icon">
-                        <i class="devicon-mysql-plain"></i>
-                        <small>MySQL</small>
-                    </span>
-                    <span class="skill-icon">
-                        <i class="devicon-postgresql-plain"></i>
-                        <small>PostgreSQL</small>
-                    </span>
-                    </div>
+                        <div class="row mb-3">
+                            <div class="col-lg-12 d-flex ">
+                                <span class="skill-icon">
+                                    <i class="devicon-html5-plain"></i>
+                                    <small>HTML 5</small>
+                                </span>
+                                <span class="skill-icon">
+                                    <i class="devicon-css3-plain"></i>
+                                    <small>CSS</small>
+                                </span>
+                                <span class="skill-icon">
+                                    <i class="devicon-bootstrap-plain"></i>
+                                    <small>Bootstrap</small>
+                                </span>
+                                <span class="skill-icon">
+                                    <i class="devicon-javascript-plain"></i>
+                                    <small>Javascript</small>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 d-flex">
+                                <span class="skill-icon">
+                                    <i class="devicon-jquery-plain"></i>
+                                    <small>Jquery</small>
+                                </span>
+                                <span class="skill-icon">
+                                    <i class="devicon-php-plain"></i>
+                                    <small>PHP</small>
+                                </span>
+                                <span class="skill-icon">
+                                    <i class="devicon-mysql-plain"></i>
+                                    <small>MySQL</small>
+                                </span>
+                                <span class="skill-icon">
+                                    <i class="devicon-postgresql-plain"></i>
+                                    <small>PostgreSQL</small>
+                                </span>
+                            </div>
+                        </div>
+                        
+                    
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <span class="text-white">Current Tech stack learning:</span>
